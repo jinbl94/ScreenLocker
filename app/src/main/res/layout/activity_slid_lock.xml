@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="60sp"/>
+
+    <RelativeLayout
+        android:id="@+id/slid_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/slid_start"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:text="@string/please_slid"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:background="@color/white"/>
+        <TextView
+            android:id="@+id/slid_destination"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_alignParentEnd="true"
+            android:background="@color/white"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ScreenLocker</string>
+    <string name="welcome">Welcome</string>
+    <string name="chooseHome">"Choose your home"</string>
+    <string name="Slid">Slid</string>
+    <string name="Password">Password</string>
+    <string name="SetPassword">"Set Password"</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Confirm">Confirm</string>
+    <string name="PswdEmpt">"Password can't be empty"</string>
+    <string name="ConfirmPassword">"Old Password"</string>
+    <string name="newPassword">"New Password"</string>
+    <string name="OdPswdWrong">"Wrong Old Password"</string>
+    <string name="PasswordWrong">"Wrong Password"</string>
+    <string name="please_slid">"->>"</string>
+</resources>
